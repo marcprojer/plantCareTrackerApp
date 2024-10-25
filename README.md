@@ -25,3 +25,5 @@ Frontend: HTML, CSS, and JavaScript
 Backend:  Node.js with Express to handle data.
 Database: SQLite
 
+# Disclaimer
+Most of the code in this project has been generated with the assistance of ChatGPT and GitHub Copilot.
