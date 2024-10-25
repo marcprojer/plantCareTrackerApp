@@ -1,0 +1,106 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f3;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+  }
+  
+  a.add-plant-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  a.add-plant-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Main Content */
+  main {
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  /* Plant List */
+  #plant-list {
+    display: grid;
+    gap: 10px;
+  }
+  
+  /* Plant Item Styles */
+  .plant-item {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plant-item h2 {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .plant-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+  }
+  
+  form input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button.submit-button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.submit-button:hover {
+    background-color: #45a049;
+  }
+  

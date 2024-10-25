@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Plant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Add a New Plant</h1>
+  </header>
+
+  <main>
+    <form id="add-plant-form">
+      <label for="name">Plant Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="type">Plant Type:</label>
+      <input type="text" id="type" name="type" required>
+
+      <label for="water-frequency">Water Frequency (days):</label>
+      <input type="number" id="water-frequency" name="water-frequency" required>
+
+      <button type="submit" class="submit-button">Add Plant</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
